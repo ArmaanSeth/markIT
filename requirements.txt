@@ -1,0 +1,6 @@
+crewai
+langchain-groq
+python-dotenv
+exa-py
+langchain_google_genai
+opencv-python

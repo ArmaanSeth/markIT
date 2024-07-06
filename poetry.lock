@@ -445,6 +445,22 @@ typing-extensions = ">=4.7.0"
 dev = ["coverage", "pytest (>=7.4.4)"]
 
 [[package]]
+name = "exa-py"
+version = "1.0.12"
+description = "Python SDK for Exa API."
+optional = false
+python-versions = "*"
+files = [
+    {file = "exa_py-1.0.12-py3-none-any.whl", hash = "sha256:056cb1b912e50982d368cd02851188b5b186e1e64764ed0008854015d902d9d5"},
+    {file = "exa_py-1.0.12.tar.gz", hash = "sha256:128c6969877c168e33c26bea8516217985c5eac69682548446b60b7168633454"},
+]
+
+[package.dependencies]
+openai = "*"
+requests = "*"
+typing-extensions = "*"
+
+[[package]]
 name = "exceptiongroup"
 version = "1.2.1"
 description = "Backport of PEP 654 (exception groups)"
@@ -2667,4 +2683,4 @@ test = ["big-O", "importlib-resources", "jaraco.functools", "jaraco.itertools", 
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10.0,<4.0"
-content-hash = "3c01a9bec23bc99963f9a0699fa88b787f924fd8f3722675760dfefd7448bbf0"
+content-hash = "3e529be16537e92a751e6ac506c5c2bc9abcb6a36a82d50ae51e747c07dc1118"
